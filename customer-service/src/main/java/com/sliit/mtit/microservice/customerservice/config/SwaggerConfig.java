@@ -32,11 +32,11 @@ public class SwaggerConfig {
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
                 .title("Customer Service - Spring Boot Swagger Configuration")
-                .description("\"Swagger configuration for CustomerService \"")
+                .description("\"Swagger configuration for Customer Service \"")
                 .version("1.1.0")
                 .license("Apache 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
-                .contact(new Contact("IT18119718", "https://courseweb.sliit.lk/", "it18119718@my.sliit.lk"))
+                .contact(new Contact("Group", "https://courseweb.sliit.lk/", ""))
                 .build();
     }
 }

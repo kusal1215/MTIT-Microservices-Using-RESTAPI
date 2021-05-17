@@ -31,8 +31,8 @@ public class SwaggerConfig {
 
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
-                .title("Customer Service - Spring Boot Swagger Configuration")
-                .description("\"Swagger configuration for CustomerService \"")
+                .title("Product Inventory Service - Spring Boot Swagger Configuration")
+                .description("\"Swagger configuration for Product Inventory Service \"")
                 .version("1.1.0")
                 .license("Apache 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")

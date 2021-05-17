@@ -31,8 +31,8 @@ public class SwaggerConfig {
 
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
-                .title("WishList Service - Spring Boot Swagger Configuration")
-                .description("\"Swagger configuration for WishList Service \"")
+                .title("Wishlist Service - Spring Boot Swagger Configuration")
+                .description("\"Swagger configuration for Wishlist Service \"")
                 .version("1.1.0")
                 .license("Apache 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
