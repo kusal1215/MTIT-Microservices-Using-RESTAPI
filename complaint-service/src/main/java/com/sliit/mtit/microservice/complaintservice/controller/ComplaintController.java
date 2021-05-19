@@ -20,7 +20,7 @@ public class ComplaintController {
     public @ResponseBody ComplaintResponse createComplaint(@RequestBody ComplaintRequest complaintRequest){
 
 
-        System.out.println("Delivery Details: " + complaintRequest);
+        System.out.println("Complaint Details: " + complaintRequest);
 
         return complaintService.createComplaint(complaintRequest);
 

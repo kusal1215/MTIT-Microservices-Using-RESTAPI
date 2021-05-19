@@ -14,7 +14,7 @@ public class InvoiceController {
     @PostMapping(consumes = "application/json", produces = "application/json")
     public @ResponseBody InvoiceResponse createInvoice(@RequestBody InvoiceRequest invoiceRequest){
 
-        System.out.println("Order Details: " + invoiceRequest);
+        System.out.println("Invoice Details: " + invoiceRequest);
 
         var invoiceResponse = new InvoiceResponse();
         invoiceResponse.setInvoiceID(UUID.randomUUID().toString());

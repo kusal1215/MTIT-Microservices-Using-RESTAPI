@@ -17,7 +17,7 @@ public class PaymentController {
 
     @PostMapping(consumes = "application/json", produces = "application/json")
     public @ResponseBody PaymentResponse createPayment(@RequestBody PaymentRequest paymentRequest){
-        System.out.println("Order Details: " + paymentRequest);
+        System.out.println("Payment Details: " + paymentRequest);
         return paymentService.createPayment(paymentRequest);
 
     }

@@ -18,7 +18,7 @@ public class ReturnController {
 
     @PostMapping(consumes = "application/json", produces = "application/json")
     public @ResponseBody ReturnResponse createResponse(@RequestBody ReturnRequest returnRequest){
-        System.out.println("Delivery Details: " + returnRequest);
+        System.out.println("Product Return Details: " + returnRequest);
         return  productReturnService.createProductReturn(returnRequest);
     }
 
